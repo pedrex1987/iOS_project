@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		651A242B2BEAD9710092375C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651A242A2BEAD9710092375C /* AppDelegate.swift */; };
 		651A242D2BEAD9710092375C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651A242C2BEAD9710092375C /* SceneDelegate.swift */; };
-		651A242F2BEAD9710092375C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651A242E2BEAD9710092375C /* ViewController.swift */; };
 		651A24322BEAD9710092375C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651A24302BEAD9710092375C /* Main.storyboard */; };
 		651A24352BEAD9710092375C /* project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 651A24332BEAD9710092375C /* project.xcdatamodeld */; };
 		651A24372BEAD9720092375C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651A24362BEAD9720092375C /* Assets.xcassets */; };
 		651A243A2BEAD9720092375C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651A24382BEAD9720092375C /* LaunchScreen.storyboard */; };
+		651A24442BEAF3E30092375C /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651A24432BEAF3E20092375C /* ListTableViewController.swift */; };
+		651A24462BEAF42E0092375C /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651A24452BEAF42E0092375C /* EditViewController.swift */; };
+		651A24482BEAF43F0092375C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651A24472BEAF43F0092375C /* DetailViewController.swift */; };
+		65919D142BEC33C10030A283 /* ProblemLib.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65919D122BEC33C10030A283 /* ProblemLib.xcdatamodeld */; };
+		65919D162BEC3B020030A283 /* UIViewController+Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65919D152BEC3B020030A283 /* UIViewController+Context.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		651A24272BEAD9710092375C /* project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		651A242A2BEAD9710092375C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		651A242C2BEAD9710092375C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		651A242E2BEAD9710092375C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		651A24312BEAD9710092375C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		651A24342BEAD9710092375C /* project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = project.xcdatamodel; sourceTree = "<group>"; };
 		651A24362BEAD9720092375C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		651A24392BEAD9720092375C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		651A243B2BEAD9720092375C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		651A24432BEAF3E20092375C /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		651A24452BEAF42E0092375C /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		651A24472BEAF43F0092375C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		65919D132BEC33C10030A283 /* ProblemLib.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProblemLib.xcdatamodel; sourceTree = "<group>"; };
+		65919D152BEC3B020030A283 /* UIViewController+Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Context.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +66,36 @@
 		651A24292BEAD9710092375C /* project */ = {
 			isa = PBXGroup;
 			children = (
+				651A24422BEADF0B0092375C /* edit */,
+				651A24412BEADEF80092375C /* detail */,
 				651A242A2BEAD9710092375C /* AppDelegate.swift */,
 				651A242C2BEAD9710092375C /* SceneDelegate.swift */,
-				651A242E2BEAD9710092375C /* ViewController.swift */,
 				651A24302BEAD9710092375C /* Main.storyboard */,
+				651A24432BEAF3E20092375C /* ListTableViewController.swift */,
 				651A24362BEAD9720092375C /* Assets.xcassets */,
 				651A24382BEAD9720092375C /* LaunchScreen.storyboard */,
 				651A243B2BEAD9720092375C /* Info.plist */,
 				651A24332BEAD9710092375C /* project.xcdatamodeld */,
+				65919D122BEC33C10030A283 /* ProblemLib.xcdatamodeld */,
+				65919D152BEC3B020030A283 /* UIViewController+Context.swift */,
 			);
 			path = project;
+			sourceTree = "<group>";
+		};
+		651A24412BEADEF80092375C /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				651A24472BEAF43F0092375C /* DetailViewController.swift */,
+			);
+			path = detail;
+			sourceTree = "<group>";
+		};
+		651A24422BEADF0B0092375C /* edit */ = {
+			isa = PBXGroup;
+			children = (
+				651A24452BEAF42E0092375C /* EditViewController.swift */,
+			);
+			path = edit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				651A242F2BEAD9710092375C /* ViewController.swift in Sources */,
 				651A242B2BEAD9710092375C /* AppDelegate.swift in Sources */,
+				651A24462BEAF42E0092375C /* EditViewController.swift in Sources */,
 				651A242D2BEAD9710092375C /* SceneDelegate.swift in Sources */,
+				651A24442BEAF3E30092375C /* ListTableViewController.swift in Sources */,
 				651A24352BEAD9710092375C /* project.xcdatamodeld in Sources */,
+				651A24482BEAF43F0092375C /* DetailViewController.swift in Sources */,
+				65919D162BEC3B020030A283 /* UIViewController+Context.swift in Sources */,
+				65919D142BEC33C10030A283 /* ProblemLib.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +406,16 @@
 			);
 			currentVersion = 651A24342BEAD9710092375C /* project.xcdatamodel */;
 			path = project.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		65919D122BEC33C10030A283 /* ProblemLib.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65919D132BEC33C10030A283 /* ProblemLib.xcdatamodel */,
+			);
+			currentVersion = 65919D132BEC33C10030A283 /* ProblemLib.xcdatamodel */;
+			path = ProblemLib.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
